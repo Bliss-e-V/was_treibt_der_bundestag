@@ -7,9 +7,10 @@ analyzes these using <i>gpt-4</i> and automatically posts their relevant content
 For more information about the deployment, see section Usage.
 
 Telegram bot: [t.me/was_treibt_der_bundestag_bot](https://t.me/was_treibt_der_bundestag_bot) [Not properly implemented yet]
-Website: [wastreibtderbundestag.X](https://www.wastreibtderbundestag.X) [Not properly implemented yet]
+Website: [wastreibtderbundestag.de](https://www.wastreibtderbundestag.de) [Not properly implemented yet]
 
 Main contributors: Lorenz Hufe [@lowrenz](https://github.com/lowlorenz), Justus Westerhoff [@MassEast](https://github.com/MassEast), Jakob Maleck
+
 Affiliation: [BLISS Berlin](https://bliss.berlin/)
 
 ## Why?
