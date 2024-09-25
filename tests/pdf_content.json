@@ -1,0 +1,60 @@
+{
+  "Wahlperiode": 20,
+  "Sitzungsnummer": 52,
+  "Sitzungsdatum": "13. März 2024",
+  "Ausschuss": "Ausschuss für Kultur und Medien",
+  "Tagesordnungspunkte": [
+    {
+      "Nummer": 1,
+      "Titel": "Vereinbarkeit von Familie und Beruf im Kultur - und Kreativbereich",
+      "Fraktion": [
+        "Nicht zutreffend"
+      ]
+    },
+    {
+      "Nummer": 2,
+      "Titel": "Zukunftszentrum für Deutsche Einheit und Europäische Transformation",
+      "Fraktion": [
+        "Bundesregierung"
+      ]
+    },
+    {
+      "Nummer": 3,
+      "Titel": "Entwurf eines Gesetzes zur Verhinderung von Falschmeldungen und zur Transparenz der Medienmacht von Parteien (Medientransparenzgesetz)",
+      "Fraktion": [
+        "AfD"
+      ]
+    },
+    {
+      "Nummer": 4,
+      "Titel": "Eine interessen - und wertegeleitete Internationalisierung von Wissenschaft und Hochschulbildung",
+      "Fraktion": [
+        "SPD",
+        "CDU/CSU",
+        "Bündnis 90/Die Grünen",
+        "FDP"
+      ]
+    },
+    {
+      "Nummer": 5,
+      "Titel": "Innovation ermöglichen, Investitionen erleichtern - Agenda für Bürokratieabbau und bessere Rechtsetzung",
+      "Fraktion": [
+        "CDU/CSU"
+      ]
+    },
+    {
+      "Nummer": 6,
+      "Titel": "Vom dänischen Umgang mit Parallelgesellschaften lernen – Strategische Wende in der Stadt - und Wohnungsbaupolitik einleiten",
+      "Fraktion": [
+        "AfD"
+      ]
+    },
+    {
+      "Nummer": 7,
+      "Titel": "Kinderkopftuch als politisch -weltanschauliches Symbol – Verbot in öffentlichen Kindertageseinrichtungen und Schulen",
+      "Fraktion": [
+        "AfD"
+      ]
+    }
+  ]
+}

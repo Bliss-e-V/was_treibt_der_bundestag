@@ -1,0 +1,1 @@
+Right before the project died (for no particular reason other than us focusing on other things), we had a very simple, tile-like website in mind, which nicely displays our created images and *also links to the **PDF the information is coming from** (which is sadly not possible on Instagram). We are happy about any contributions/suggestions here :-)

@@ -1,0 +1,5 @@
+firebase-admin
+beautifulsoup4
+pathlib
+dotenv
+os

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram Feed</title>
+    <style>
+      .instagram-post {
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        margin: 1%;
+      }
+      .instagram-post:hover .post-details {
+        visibility: visible;
+        opacity: 1;
+      }
+      .post-details {
+        position: absolute;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+        width: 100%;
+        padding: 10px;
+      }
+      .post-details img {
+        width: 100%;
+      }
+      .mySlides {
+        display: none;
+      }
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="instagram-post">
+      <div class="post-details">
+        <img src="tests/post1/0.jpg" alt="" class="mySlides">
+        <img src="tests/post1/1.jpg" alt="" class="mySlides">
+        <img src="tests/post1/2.jpg" alt="" class="mySlides">
+        <!-- Add more images as needed -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <!-- Add more dots as needed -->
+        </div>
+      </div>
+    </div>
+    <div class="instagram-post">
+      <div class="post-details">
+        <img src="tests/post2/0.jpg" alt="" class="mySlides">
+        <img src="tests/post2/1.jpg" alt="" class="mySlides">
+        <img src="tests/post2/2.jpg" alt="" class="mySlides">
+        <!-- Add more images as needed -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <!-- Add more dots as needed -->
+        </div>
+      </div>
+    </div>
+    <!-- Add more .instagram-post elements as needed -->
+
+    <script>
+      let slideIndex = 0;
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+    </script>
+  </body>
+</html>

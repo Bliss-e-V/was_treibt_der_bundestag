@@ -1,0 +1,7 @@
+instagrapi
+openai
+pyphen
+wand
+python-dotenv
+pdfplumber
+flask
